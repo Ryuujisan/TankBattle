@@ -1,0 +1,12 @@
+﻿
+Renamed 'GetControlledTabk' to 'GetControlledTank':
+---------------------------------------------------
+d:\Projekty\KursUnreal\TankBattle\BattleTank\TankBattle\Source\TankBattle\Private\TankPlayerControler.cpp(16, 7)
+d:\Projekty\KursUnreal\TankBattle\BattleTank\TankBattle\Source\TankBattle\Private\TankPlayerControler.cpp(27, 24)
+d:\Projekty\KursUnreal\TankBattle\BattleTank\TankBattle\Source\TankBattle\Private\TankPlayerControler.cpp(39, 30)
+d:\Projekty\KursUnreal\TankBattle\BattleTank\TankBattle\Source\TankBattle\Public\TankPlayerControler.h(20, 9)
+
+Renamed 'WorldDirection' to 'LookDirection':
+--------------------------------------------
+d:\Projekty\KursUnreal\TankBattle\BattleTank\TankBattle\Source\TankBattle\Private\TankPlayerControler.cpp(39, 10)
+d:\Projekty\KursUnreal\TankBattle\BattleTank\TankBattle\Source\TankBattle\Private\TankPlayerControler.cpp(41, 39)
