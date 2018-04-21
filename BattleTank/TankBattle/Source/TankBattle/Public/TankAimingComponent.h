@@ -1,9 +1,8 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #pragma once
-
 #include "CoreMinimal.h"
-#include "Components/ActorComponent.h"
+#include "GameFramework/Actor.h"
 #include "TankAimingComponent.generated.h"
 
 
@@ -24,6 +23,10 @@ public:
 	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
-		
+	void AimAt(FVector WorldSpaceAim);
+	void SetBarrelRefrence(UStaticMeshComponent * Barrel);
+
+private:
+	UStaticMeshComponent * Barrel = nullptr;
 	
 };
